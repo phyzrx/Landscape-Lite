@@ -1,5 +1,5 @@
 # Landscape Lite 中文版操作指南：
-
+基本操作篇：
 	
 # Landscape 能做些什么：
 	Landscape Lite 基于 NI Labview 写成。目前提供下载的为 LV2014 32bit 编译成的可执行文件。
@@ -23,3 +23,11 @@
 			Limit = "+仪器上限\+仪器下限"，无所谓上下限顺序，数值前方要加正负号
 			Ramp = "1mV"仪器设定时的最大步距
 			Delay = "10ms"每次更改仪器设定值时的等待时间
+	2. 编写测量步骤：
+		a. 打开程序，在 Data Folder Path 中选择数据存储路径。在 Ini File Path 中选择配置文件路径，选好路径之后勾选 Lock Ini File。如果能够成功勾选，并且在 Scan Instruments 和 Read Instrument 两栏有正确的仪器显示，则说明导入成功。
+		b. 双击 Work List 或者点按 Edit 按钮可以调出测量步骤编辑器。每一个步骤可分为四部分：
+			i. Work List Information: 存储该步骤的描述，测量文件名，还有测量笔记。
+			ii. Scan List：存储该步骤的扫场设定。
+			iii. Read List: 存储该步骤的读数仪器。
+			iiii. Array Type：存储该步骤的数列类型，以及每个参数的读点数目，读点时间间隔。
+		c. 点按 Work List 旁边的四个按钮可以分别调出四部分的更改窗口。也可以通过右键菜单打开更改界面。
