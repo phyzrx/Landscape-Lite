@@ -1,5 +1,7 @@
 # Landscape Lite 中文版操作指南：
-	
+
+采集利器，助力科学研究，为您的实验保驾护航。
+
 # Landscape 能做些什么：
 	Landscape Lite 基于 NI Labview 写成。目前提供下载的为 LV2014 32bit 编译成的可执行文件。
 	Landscape 是一款稳定高速的多功能数据采集软件。
