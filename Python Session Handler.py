@@ -13,7 +13,7 @@ def GetPID():
     return pid
 
 def Stop(pid):
-    os.kill(pid, signal.SIGTERM)
+    os.kill(pid, signal.SIGINT)
     returnstr = "Killed Session PID %g" % (pid)
     print(returnstr)
     return 0
