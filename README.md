@@ -1,7 +1,7 @@
 # Landscape-Lite
 Collect Instrument Data
 
-The Landscape-Lite software has completed its complete historical mission.
+The Landscape-Lite software has completed its historical mission.
 
 The next generation of this family is Landscape DataStream.
 
